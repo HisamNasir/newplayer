@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+*/
+.rhap_progress-filled {
+  background-color: #990000;
+  border-radius: 0px;
+}
+#cardStyle {
+  clip-path: "polygon(34.9% 0, 100% 0, 100% 100%, 0 100%, 0 22.5%, 34.9% 22.5%)";
+}
+.rhap_progress-container {
+  padding: 0px;
+  margin: 0px;
+}
+.rhap_progress-bar {
+  background-color: black;
+  border-radius: 0px;
+  height: 15%;
+}
+.rhap_controls-section {
+  padding: 0px;
+  margin: 0px;
+  height: 28px;
+}
+.rhap_progress-indicator {
+  display: none;
+}
